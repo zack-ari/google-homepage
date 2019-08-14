@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Homepage</title>
+<style>
+    li {
+        display: inline;
+        padding: 5px;
+        text-align: right;
+    }
+   nav {
+       text-align: right;
+   }
+   li {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-align: right;
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+   }
+   li a {
+    text-decoration: none;
+    color: black;
+   }
+li:hover a{
+   opacity: .85;
+    text-decoration: underline;
+    color: rgba(0,0,0,0.87)
+}
+
+.searchbox {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    background: #fff;
+    display: flex;
+    /* border-radius: 8px; */
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    padding-inline-start: 48px;
+}
+.btn {
+    align-items: flex-start;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(95, 99, 104);
+    display: inline-block;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: 35px;
+    margin: 11px 4px;
+}
+div {
+    position: absolute;
+    text-align: center;
+    height: 92px;
+    left: 450px;
+    width: 270px;
+    
+}
+</style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Icon</a></li>
+            <li><a href="#">Icon</a></li>
+        </ul>
+    </nav>
+    <div>
+    <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" width="300" alt="google image">
+<center>
+        <input class="searchbox" type="text" id="search" placeholder="search google">
+    
+    <input class="btn" type="submit" value="Google search">
+    <input class="btn" type="submit" value="I'm Feeling lucky">
+</center>
+</div>
+</body>
+</html>
